@@ -15,3 +15,32 @@ temp=list1[0]
 list1[0]=list1[2]
 list1[2]=temp
 print(list1)
+
+#Find the Length of a List Using len() Function.
+
+list1=[23,65,19,90]
+print(len(list1))
+
+#Given two numbers, write a Python code to find the Maximum of these two numbers.
+
+def maximum(a,b):
+    if(a>=b):
+        return a
+    else:
+        return b
+
+a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+print(maximum(a,b))
+
+#Given two numbers, write a Python code to find the Minimum of these two numbers.
+
+def minimum(a,b):
+    if(a>=b):
+        return b
+    else:
+        return a
+
+a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+print(minimum(a,b))
