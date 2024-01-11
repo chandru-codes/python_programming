@@ -7,7 +7,10 @@ list1[-1]=temp
 print(list1)
 
 #Given a list in Python and provided the positions of the elements, write a program to swap the two elements in the list. 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a2ef056c3c9fefd23e9a4b0700b390232965db6c
 #Input : List1 = [23, 65, 19, 90]
 #Output : [19, 65, 23, 90]
 
@@ -45,6 +48,7 @@ def minimum(a,b):
 a=int(input("Enter a:"))
 b=int(input("Enter b:"))
 print(minimum(a,b))
+<<<<<<< HEAD
 
 
 
@@ -74,3 +78,5 @@ print(minimum(a,b))
 
 
 
+=======
+>>>>>>> a2ef056c3c9fefd23e9a4b0700b390232965db6c
