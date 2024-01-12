@@ -33,6 +33,30 @@ if(first_string==second_string):
 else:
     print("String is not symmetrical")
     
+#String reverse program
+
+name=input("Enter the string:")
+length=len(name)
+i=0
+for n in range(-1,(-length-1),-1):
+    print(name[i],"\t",name[n])
+    i+=1
+
+
+#Character removal in string
+
+str="python"
+print(str.replace("th",""))
+
+#Python program to print even length words in a string
+
+n="python code to print even length words"
+s=n.split(" ")
+for i in s:
+    if len(i)%2==0:
+        print(i)
+
+    
     
 
 
